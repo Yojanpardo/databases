@@ -38,13 +38,13 @@ una restriccion se puede ejecutar desde la capa de aplicación pero tambien se p
 
 algunas de las restricciones que vemos en las bases de datos son:
 
----
+~~~
 UNIQUE
 NOT NULL
 PRIMARY KEY
 FOREIGN KEY
 CHECK == <= >= < >
----
+~~~
 
 Desde la capa de aplicación se puede controlar estas restriciones pero es aconcejable hacerlo tambien en la base de datos
 
