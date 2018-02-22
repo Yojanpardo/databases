@@ -37,13 +37,15 @@ resumiendo una entidad tiene atributos y éstas se relacionan entre sí.
 una restriccion se puede ejecutar desde la capa de aplicación pero tambien se puede hacer desde el motor de las bases de datos para evitar que se generen anormalidades con la información.
 
 algunas de las restricciones que vemos en las bases de datos son:
-´´´ sql
+
+---
 UNIQUE
 NOT NULL
 PRIMARY KEY
 FOREIGN KEY
 CHECK == <= >= < >
-´´´
+---
+
 Desde la capa de aplicación se puede controlar estas restriciones pero es aconcejable hacerlo tambien en la base de datos
 
 ### niveles de abstracción
